@@ -101,7 +101,6 @@ body::before {
     z-index: -1
 }
 
-/* Модальное окно */
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -943,7 +942,7 @@ textarea.form-input {
 
 @media (max-width: 360px) {
     .logo {
-        font-size: 0; /* Скрываем текст "Сладости от Candor" */
+        font-size: 0;
     }
 
     .logo::after {
