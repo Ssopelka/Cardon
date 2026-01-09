@@ -212,7 +212,7 @@
 
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="assets/images/160x90.svg" alt="Подарочные наборы" class="product-image">
+                        <img src="assets/images/gift_set.webp" alt="Подарочные наборы" class="product-image">
                         <span class="product-badge">Идеально для подарка</span>
                     </div>
                     <div class="product-content">
@@ -245,22 +245,64 @@
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="assets/images/heart_candy.webp" alt="Работа 1" class="gallery-image">
+                    <img src="assets/images/angel.webp" alt="Сердечки" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/mango_candy.webp" alt="Работа 2" class="gallery-image">
+                    <img src="assets/images/mango_candy.webp" alt="Манго конфеты" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/200x200.svg" alt="Работа 3" class="gallery-image">
+                    <img src="assets/images/heart_candy.webp" alt="Десерт" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/200x200.svg" alt="Работа 4" class="gallery-image">
+                    <img src="assets/images/new_years_set.webp" alt="Сладости" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/christmas_tree.webp" alt="Работа 5" class="gallery-image">
+                    <img src="assets/images/christmas_tree.webp" alt="Елочка" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/chocolate.webp" alt="Работа 6" class="gallery-image">
+                    <img src="assets/images/chocolate.webp" alt="Шоколад" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -278,27 +320,32 @@
                     <form class="contact-form" id="contactForm" novalidate>
                         <div class="form-group">
                             <label for="name" class="form-label">Ваше имя</label>
-                            <input type="text" id="name" name="name" class="form-input" placeholder="Иван" required autocomplete="name">
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Иван" required
+                                autocomplete="name">
                             <div class="error-message" id="name-error"></div>
                         </div>
                         <div class="form-group">
                             <label for="phone" class="form-label">Телефон</label>
-                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+7 (999) 000-00-00" required autocomplete="tel">
+                            <input type="tel" id="phone" name="phone" class="form-input"
+                                placeholder="+7 (999) 000-00-00" required autocomplete="tel">
                             <div class="error-message" id="phone-error"></div>
                         </div>
                         <div class="form-group">
                             <label for="email" class="form-label">Email (необязательно)</label>
-                            <input type="email" id="email" name="email" class="form-input" placeholder="example@mail.ru" autocomplete="email">
+                            <input type="email" id="email" name="email" class="form-input" placeholder="example@mail.ru"
+                                autocomplete="email">
                             <div class="error-message" id="email-error"></div>
                         </div>
                         <div class="form-group">
                             <label for="message" class="form-label">Описание заказа (макс. 200 символов)</label>
-                            <textarea id="message" name="message" rows="4" class="form-input" placeholder="Например: Подарочный набор на день рождения, 10 шт." maxlength="200" autocomplete="off"></textarea>
+                            <textarea id="message" name="message" rows="4" class="form-input"
+                                placeholder="Например: Подарочный набор на день рождения, 10 шт." maxlength="200"
+                                autocomplete="off"></textarea>
                             <div class="char-count">0 / 200</div>
                             <div class="error-message" id="message-error"></div>
                         </div>
                         <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
-                    </form>                    
+                    </form>
                 </div>
                 <div class="contact-info-wrapper">
                     <div class="contact-info-card">
@@ -410,6 +457,35 @@
             <h3 class="modal-title" id="modalTitle">Заголовок</h3>
             <p class="modal-message" id="modalMessage">Текст сообщения</p>
             <button class="btn btn-primary btn-full" id="modalBtn">Хорошо</button>
+        </div>
+    </div>
+
+    <!-- Lightbox  -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+
+        <div class="lightbox-content">
+            <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Назад">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+
+            <img src="" alt="Просмотр" class="lightbox-image" id="lightboxImage">
+
+            <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Вперед">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
         </div>
     </div>
 
